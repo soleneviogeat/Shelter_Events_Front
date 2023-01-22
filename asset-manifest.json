@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Shelter_Events_Front/static/css/main.b3b016d6.css",
-    "main.js": "/Shelter_Events_Front/static/js/main.04b3d5b4.js",
+    "main.js": "/Shelter_Events_Front/static/js/main.1f1a13bb.js",
     "static/media/IMG_1580.jpeg": "/Shelter_Events_Front/static/media/IMG_1580.10b5c08bcaa9b8ed0dd3.jpeg",
     "static/media/IMG_1587.jpeg": "/Shelter_Events_Front/static/media/IMG_1587.1bcc9590f3c9450b6ffc.jpeg",
     "static/media/photo-form-contact.jpg": "/Shelter_Events_Front/static/media/photo-form-contact.b639aa7ffb95dabab590.jpg",
@@ -37,10 +37,10 @@
     "static/media/logo-fond-blanc.png": "/Shelter_Events_Front/static/media/logo-fond-blanc.340dc3005e32082ec6ad.png",
     "index.html": "/Shelter_Events_Front/index.html",
     "main.b3b016d6.css.map": "/Shelter_Events_Front/static/css/main.b3b016d6.css.map",
-    "main.04b3d5b4.js.map": "/Shelter_Events_Front/static/js/main.04b3d5b4.js.map"
+    "main.1f1a13bb.js.map": "/Shelter_Events_Front/static/js/main.1f1a13bb.js.map"
   },
   "entrypoints": [
     "static/css/main.b3b016d6.css",
-    "static/js/main.04b3d5b4.js"
+    "static/js/main.1f1a13bb.js"
   ]
 }
