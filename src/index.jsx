@@ -16,18 +16,21 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { fas } from '@fortawesome/free-solid-svg-icons'
 import { faTwitter, faFontAwesome } from '@fortawesome/free-brands-svg-icons'
 import './styles/App.scss'
+import Header from './components/Header'
 
 library.add(fas, faTwitter, faFontAwesome)
 
+console.log('ok', window.location.href)
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Router>
       <ThemeProvider>
           <GlobalStyle />
+          <Header></Header>
           <Routes>
             <Route path="/" element={<Home/>} />
-            <Route path="/presentation" element={<Presentation/>} />
+            <Route path="/login" element={<Presentation/>} />
             <Route path="/services" element={<Services/>} />
             <Route path="/pictures" element={<Pictures/>} />
             <Route path="/contact" element={<Contact/>} />

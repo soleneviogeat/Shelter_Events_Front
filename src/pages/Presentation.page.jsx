@@ -36,7 +36,7 @@ const StyledForm = styled.div`
   padding: 2rem;
 `
 
-function Presentation() {
+function Login() {
     const { theme } = useTheme()
 
 
@@ -44,9 +44,6 @@ function Presentation() {
       <LoginWrapper>
         
           <LeftCol>
-            <div className='flex center'>
-              <HomeLogo src={theme === 'light' ? RedLogo : LightLogo} />
-            </div>
             
             <StyledForm>
             <StyledTitle theme={theme}>
@@ -85,4 +82,4 @@ function Presentation() {
     )
   }
   
-  export default Presentation
+  export default Login

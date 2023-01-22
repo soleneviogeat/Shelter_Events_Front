@@ -44,9 +44,6 @@ function Services() {
       <SignupWrapper>
         
           <LeftCol>
-          <div className='flex center'>
-            <HomeLogo src={theme === 'light' ? RedLogo : LightLogo} />
-          </div>
           <StyledForm>
           <section>
             <h1>N<span class="souligne">os offre</span>s</h1>

@@ -1,4 +1,4 @@
-/*import styled from 'styled-components'
+import styled from 'styled-components'
 import { StyledLink } from '../utils/Atoms'
 import '../styles/Contact.css'
 import '../styles/Home.css'
@@ -43,10 +43,6 @@ function Contact() {
       <LoginWrapper>
         
           <LeftCol>
-            <div className='flex center'>
-              <HomeLogo src={theme === 'light' ? RedLogo : LightLogo} />
-            </div>
-            
             <StyledForm>
             <StyledTitle theme={theme}>
                 <section class="text-contact">
@@ -140,4 +136,4 @@ function Contact() {
     )
   }
   
-  export default Contact */
+  export default Contact 

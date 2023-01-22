@@ -1,4 +1,4 @@
-/*import styled from 'styled-components'
+import styled from 'styled-components'
 import { StyledLink } from '../utils/Atoms'
 import '../styles/Pictures.css'
 import '../styles/Home.css'
@@ -66,11 +66,7 @@ function Pictures() {
     return (
       <LoginWrapper>
         
-          <LeftCol>
-            <div className='flex center'>
-              <HomeLogo src={theme === 'light' ? RedLogo : LightLogo} />
-            </div>
-            
+          <LeftCol>            
             <StyledForm>
             <StyledTitle theme={theme}>
               <section>
@@ -171,4 +167,4 @@ function Pictures() {
     )
   }
   
-  export default Pictures */
+  export default Pictures 

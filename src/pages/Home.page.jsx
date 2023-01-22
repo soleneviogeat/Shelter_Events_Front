@@ -44,7 +44,7 @@ const StyledFlexContainer = styled.div`
   flex: 1;
   padding: 2rem;
 `
-
+console.log('home')
 
 function Home() {
   const { theme } = useTheme()
@@ -56,7 +56,7 @@ function Home() {
           
           
           <StyledFlexContainer>
-            <StyledLink to="/presentation" $isFullLink>
+            <StyledLink to="/login" $isFullLink>
               Présentation
             </StyledLink>
             <StyledLink to="/services" $isFullLink>
@@ -77,6 +77,4 @@ function Home() {
 
 export default Home
 
-//<div className='flex center'>
-            //<HomeLogo src={theme === 'light' ? RedLogo : LightLogo} />
-          //</div>
+
